@@ -101,6 +101,8 @@ if __name__ == "__main__":
 - Standalone component with no need for additional third-party PLC controls.
 - Built-in .NET 8 runtime automatic installation.
 
+For more detailed API documentation, please visit: [LECPython API Documentation](http://www.lecpserver.com:3003/)
+
 # License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
@@ -211,23 +213,8 @@ if __name__ == "__main__":
 - 独立组件，无需额外的第三方 PLC 控件。
 - 自带 .NET 8 运行时自动安装。
 
+需要了解更多的API信息，请查阅官方文档: [LECPython API Documentation](http://www.lecpserver.com:3003/)
+
 # 许可证
 
 此项目根据 MIT 许可证授权。详情请参阅 [LICENSE](LICENSE) 文件。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
