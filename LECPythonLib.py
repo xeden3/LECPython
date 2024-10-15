@@ -81,7 +81,7 @@ class DotNetInstaller:
                             os.system('sudo dpkg -i packages-microsoft-prod.deb')
                             os.system('sudo apt update')
                             os.system('sudo apt install -y dotnet-runtime-8.0')
-                        elif "rpt-rpi" in version_info:
+                        elif "rpt-rpi" in version_info or "aarch64" in version_info:
                             print("Detected Raspberry Pi environment. Installing .NET 8 Runtime...")
                             os.system('sudo apt update')
                             os.system('sudo apt install -y wget')
